@@ -1,6 +1,6 @@
 CC := g++
 CFLAGS := -std=c++11 -I/usr/include -I/usr/local/include/opencv4
-INCLUDEPATHS := -I${HOME}/tensorflow -I${HOME}/EAI_TfLite 
+INCLUDEPATHS := -I${HOME}/tensorflow -I${HOME}/EAI 
 LDFLAGS := -pthread -ltensorflow-lite -lflatbuffers -l:libedgetpu.so.1.0 -ldl\
 					 -lopencv_core -lopencv_imgcodecs -lopencv_imgproc
 					 

@@ -33,11 +33,11 @@ limitations under the License.
 using namespace std;
 using namespace cv;
 
-#define MNIST_INPUT "/home/pi/EAI_TfLite/mnist_dataset/mnist_images"
-#define MNIST_LABEL "/home/pi/EAI_TfLite/mnist_dataset/mnist_labels"
-#define IMAGENET_BANANA "/home/pi/EAI_TfLite/imagenet_dataset/banana.jpg"
-#define IMAGENET_ORANGE "/home/pi/EAI_TfLite/imagenet_dataset/orange.jpg"
-#define IMAGENET_LABELS "/home/pi/EAI_TfLite/imagenet_dataset/imagenet_label.txt"
+
+// MAKE SURE TO USE PROPER DIRECTORIES
+#define IMAGENET_BANANA "/home/pi/EAI/imagenet_dataset/banana.jpg"
+#define IMAGENET_ORANGE "/home/pi/EAI/imagenet_dataset/orange.jpg"
+#define IMAGENET_LABELS "/home/pi/EAI/imagenet_dataset/imagenet_label.txt"
 
 #define TFLITE_MINIMAL_CHECK(x)                              \
   if (!(x)) {                                                \
